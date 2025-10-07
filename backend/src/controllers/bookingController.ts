@@ -1,13 +1,19 @@
 import { Request, Response } from "express";
+import { validationResult } from "express-validator";
 import Booking from "../models/Booking";
 
 export const createBooking = async (req: Request, res: Response) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   try {
     const booking = new Booking(req.body);
     await booking.save();
     res.status(201).json(booking);
   } catch (error) {
-    res.status(400).json({ message: "Invalid data", error });
+    res.status(500).json({ message: "Server error", error });
   }
 };
 
