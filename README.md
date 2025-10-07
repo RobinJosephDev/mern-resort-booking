@@ -1,3 +1,40 @@
+# 🏖️ Resort Booking App
+
+A **full-stack MERN + TypeScript** resort booking system with a modern **React + Tailwind CSS** frontend and a secure **Express + MongoDB** backend.
+
+---
+
+## ✨ Features
+
+### 🖥️ Frontend (React + Vite + TypeScript)
+- Responsive and modern UI built with **Tailwind CSS**
+- Hero section with background overlay and call-to-action
+- Service listings, gallery, and booking form
+- Admin dashboard with **pagination** to view all bookings
+- Environment-based API configuration
+
+### ⚙️ Backend (Node.js + Express + MongoDB)
+- RESTful API endpoints for managing bookings  
+- Input **validation and sanitization**  
+- MongoDB Atlas integration via **Mongoose**  
+- **CORS** & **dotenv** configuration  
+- Scalable architecture (controllers, routes, models)
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React 19, TypeScript, Tailwind CSS, Vite |
+| **Backend** | Node.js, Express.js, TypeScript |
+| **Database** | MongoDB Atlas |
+| **Deployment** | Vercel (Frontend), Render / Railway (Backend) |
+
+---
+
+## 📁 Project Structure
+
 **Resort Booking App**
 
 A full-stack MERN + TypeScript resort booking system with a modern React + Tailwind CSS frontend and a secure Express + MongoDB backend.
