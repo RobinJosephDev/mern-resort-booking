@@ -1,8 +1,13 @@
 export default function Hero() {
   return (
     <section
-      className="h-screen bg-cover bg-center flex flex-col justify-center items-center text-white"
-      style={{ backgroundImage: "url('/images/resort-hero.jpg')" }}
+      className="h-screen w-full bg-cover bg-center flex flex-col justify-center items-center text-white"
+      style={{
+        backgroundImage: "url('/images/resort-hero.jpg')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <h1 className="text-5xl font-bold mb-4">Paradise Resort</h1>
       <p className="text-xl mb-6">Relax, Explore, and Rejuvenate</p>
