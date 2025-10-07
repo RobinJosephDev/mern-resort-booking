@@ -2,7 +2,7 @@
 
 A **full-stack MERN + TypeScript** resort booking system with a modern **React + Tailwind CSS** frontend and a secure **Express + MongoDB** backend.
 
-**Live App:** (https://mern-resort-booking.vercel.app/) 
+**Live App:** https://mern-resort-booking.vercel.app/
 
 ---
 
