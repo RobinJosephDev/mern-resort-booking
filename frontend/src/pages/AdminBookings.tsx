@@ -20,7 +20,8 @@ export default function AdminBookings() {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/bookings");
+        const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/bookings`);
+
         console.log("Bookings API response:", res.data);
         setBookings(res.data);
       } catch (err) {

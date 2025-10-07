@@ -17,7 +17,7 @@ export default function BookingForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/bookings", form);
+      await axios.post(`${import.meta.env.VITE_API_URL}/api/bookings`, form);
       setMessage("Booking successful!");
       setForm({
         name: "",
