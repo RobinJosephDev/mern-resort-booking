@@ -1,4 +1,4 @@
-# 🏖️ Resort Booking App
+# Resort Booking App
 
 A **full-stack MERN + TypeScript** resort booking system with a modern **React + Tailwind CSS** frontend and a secure **Express + MongoDB** backend.
 
@@ -6,16 +6,16 @@ A **full-stack MERN + TypeScript** resort booking system with a modern **React +
 
 ---
 
-## ✨ Features
+## Features
 
-### 🖥️ Frontend (React + Vite + TypeScript)
+### Frontend (React + Vite + TypeScript)
 - Responsive and modern UI built with **Tailwind CSS**
 - Hero section with background overlay and call-to-action
 - Service listings, gallery, and booking form
 - Admin dashboard with **pagination** to view all bookings
 - Environment-based API configuration
 
-### ⚙️ Backend (Node.js + Express + MongoDB)
+### Backend (Node.js + Express + MongoDB)
 - RESTful API endpoints for managing bookings  
 - Input **validation and sanitization**  
 - MongoDB Atlas integration via **Mongoose**  
@@ -24,7 +24,7 @@ A **full-stack MERN + TypeScript** resort booking system with a modern **React +
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer       | Technology                                  |
 |------------|--------------------------------------------|
@@ -35,7 +35,7 @@ A **full-stack MERN + TypeScript** resort booking system with a modern **React +
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 resort-booking/
 
@@ -169,20 +169,6 @@ All inputs are validated (required fields, email format, enum for service type)
 
 Data is sanitized using Mongoose before saving to the database
 
-
-**Deployment Tips**
-
-**Frontend (Vercel)**
-
-- Go to vercel.com
-- Connect your GitHub repo → select frontend directory
-- Add VITE_API_URL env variable in Vercel dashboard
-
-**Backend (Render)**
-
-- Go to render.com
-- Deploy from GitHub → choose backend folder
-- Add your .env variables in Render dashboard
 
 **Author**
 
