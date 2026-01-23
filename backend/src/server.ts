@@ -1,8 +1,12 @@
 import mongoose from "mongoose";
 import app from "./app";
 
-const PORT = process.env.PORT;
-const MONGO_URI = process.env.MONGO_URI || "";
+const PORT = process.env.PORT || 5000;
+const MONGO_URI = process.env.MONGO_URI;
+
+if (!MONGO_URI) {
+  throw new Error("MONGO_URI is missing");
+}
 
 mongoose
   .connect(MONGO_URI)
